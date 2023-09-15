@@ -1,0 +1,40 @@
+<a href="https://www.booking.com/hotel/it/net-a-boscolo-first-class.it.html?label=gen173nr-1FCAQoggJCDXNlYXJjaF9wYWRvdmFIFFgEaHGIAQGYARS4ARfIAQzYAQHoAQH4AQOIAgGoAgO4AtGwgqgGwAIB0gIkOTJhYWIwYzMtMzg2Mi00NTQ4LThlZDUtYTg5MjJjODI3YTAx2AIF4AIB&amp;aid=304142&amp;ucfs=1&amp;arphpl=1&amp;checkin=2023-09-12&amp;checkout=2023-09-13&amp;dest_id=-123662&amp;dest_type=city&amp;group_adults=2&amp;req_adults=2&amp;no_rooms=1&amp;group_children=0&amp;req_children=0&amp;hpos=1&amp;hapos=1&amp;sr_order=popularity&amp;srpvid=c885772ec6990096&amp;srepoch=1694537825&amp;all_sr_blocks=1383825_95138186_2_2_0&amp;highlighted_blocks=1383825_95138186_2_2_0&amp;matching_block_id=1383825_95138186_2_2_0&amp;sr_pri_blocks=1383825_95138186_2_2_0__15500&amp;from_sustainable_property_sr=1&amp;from=searchresults#hotelTmpl"
+    class="e13098a59f" target="_blank" rel="noopener noreferrer" data-testid="title-link">
+    <div data-testid="title" class="f6431b446c a23c043802">Best Western Plus Net Tower Hotel Padova</div>
+    <div class="ac4a7896c7">Si apre in una nuova finestra</div>
+</a>
+
+<button tabindex="-1" aria-hidden="true" type="button"
+    class="a83ed08757 c21c56c305 f38b6daa18 d691166b09 ab98298258 deab83296e e91c91fa93" disabled=""><span
+        class="eedba9e88a"><span class="fcd9eec8fb bf9a32efa5" aria-hidden="true"><svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M20.25 12.75H3.75a.75.75 0 0 1 0-1.5h16.5a.75.75 0 0 1 0 1.5z"></path>
+            </svg></span></span></button>
+
+            button = driver.find_element_by_xpath('//button[@tabindex="-1" and @type="button"]')
+
+
+<button aria-expanded="true" data-testid="sorters-dropdown-trigger" data-selected-sorter="popularity" type="button"
+    class="a83ed08757 faefc93c6f b94d37c0c4" aria-controls=":rf:"><span class="fcd9eec8fb a07dcf7ef3 bf9a32efa5"
+        aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+                d="M10.28 15.22a.75.75 0 0 1 0 1.06l-4.5 4.5a.78.78 0 0 1-.24.16.73.73 0 0 1-.58 0 .78.78 0 0 1-.24-.16l-4.5-4.5a.75.75 0 1 1 1.06-1.06l3.22 3.22V3.75a.75.75 0 0 1 1.5 0v14.69l3.22-3.22a.75.75 0 0 1 1.06 0zm13.5-7.5l-4.5-4.5a.78.78 0 0 0-.28-.16.73.73 0 0 0-.58 0 .78.78 0 0 0-.24.16l-4.5 4.5a.75.75 0 1 0 1.06 1.06L18 5.56v14.69a.75.75 0 0 0 1.5 0V5.56l3.22 3.22a.75.75 0 0 0 1.06 0 .75.75 0 0 0 0-1.06z">
+            </path>
+        </svg></span><span class="ccb65902b2">Ordina per: Scelte top per i viaggiatori singoli</span><span
+        class="fcd9eec8fb d9229705b4 bf9a32efa5" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24">
+            <path
+                d="M12 20.09a1.24 1.24 0 0 1-.88-.36L6 14.61a.75.75 0 1 1 1.06-1.06L12 18.49l4.94-4.94A.75.75 0 0 1 18 14.61l-5.12 5.12a1.24 1.24 0 0 1-.88.36zm6-9.46a.75.75 0 0 0 0-1.06l-5.12-5.11a1.24 1.24 0 0 0-1.754-.006l-.006.006L6 9.57a.75.75 0 0 0 0 1.06.74.74 0 0 0 1.06 0L12 5.7l4.94 4.93a.73.73 0 0 0 .53.22c.2 0 .39-.078.53-.22z">
+            </path>
+        </svg></span></button>
+
+        
+# Find all the div elements with data-testid="title"
+title_divs = wait.until(EC.element_to_be_clickable(("//div[@data-testid='property-card']")))
+
+rank_hotel = 0
+# Print the text of each div element
+for div in title_divs:
+    rank_hotel += 1
+    print(rank_hotel)'''
+    
